@@ -1,0 +1,16 @@
+[
+  {
+    "title": "3 Bed / 2 Bath Single Family Home",
+    "location": "Dallas, TX",
+    "agency": "homepath",
+    "image": "https://www.homepath.com/assets/home.jpg",
+    "link": "https://www.homepath.com/listing/12345"
+  },
+  {
+    "title": "Farm House with Acreage",
+    "location": "Bozeman, MT",
+    "agency": "usda",
+    "image": "",
+    "link": "https://www.rd.usda.gov/listing/67890"
+  }
+]

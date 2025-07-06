@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GovProp Scout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>GovProp Scout</h1>
+    <p>Find government-owned real estate for sale</p>
+  </header>
+
+  <section class="search">
+    <input type="text" id="searchBox" placeholder="Search by city or keyword..." />
+    <select id="agencyFilter">
+      <option value="all">All Agencies</option>
+      <option value="homepath">Fannie Mae (HomePath)</option>
+      <option value="fdic">FDIC</option>
+      <option value="usda">USDA</option>
+      <option value="hud">HUD</option>
+      <option value="gsa">GSA</option>
+      <option value="treasury">U.S. Treasury</option>
+      <option value="marshals">U.S. Marshals</option>
+    </select>
+    <button onclick="filterListings()">Search</button>
+  </section>
+
+  <section id="results" class="results"></section>
+
+  <script src="app.js"></script>
+</body>
+</html>
