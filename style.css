@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+}
+
+header {
+  background: #003366;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.search {
+  padding: 1rem;
+  text-align: center;
+}
+
+input, select, button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 1rem;
+  padding: 1rem;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
